@@ -14,7 +14,7 @@ public class Door : MonoBehaviour
 
     public void UseDoor()
     {
-        doorAnimator.SetBool("IsOpen", animatorBoolState);
+        doorAnimator.SetBool("open", animatorBoolState);
         animatorBoolState = !animatorBoolState;
     }
 }

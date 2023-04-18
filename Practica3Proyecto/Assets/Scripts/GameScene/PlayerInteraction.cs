@@ -25,6 +25,7 @@ public class PlayerInteraction : MonoBehaviour
             if (interactableObject != null)
             {
                 interactableObject.Interact();
+                Debug.Log("Estoy interactuando");
             }
         }
     }
